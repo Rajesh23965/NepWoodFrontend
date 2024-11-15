@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  @layer utilities {
+    .ril-loading-circle {
+      @apply hidden;
+    }
+  }
+  
