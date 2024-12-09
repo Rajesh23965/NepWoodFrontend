@@ -1,10 +1,11 @@
 import React from "react";
-import FingerJointed from "../../../assets/FingerJointed.jpeg";
+
+import FingerJointed from "../../../assets/Finger.jpeg";
 import { Link } from "react-router-dom";
 
 const HeroImageFingerJointed = () => {
   return (
-    <section className="relative ml-8 mr-8">
+    <section className="relative  flex-col md:flex-row justify-between px-4 lg:px-8">
       {/* Image Section */}
       <div className="relative w-full">
         <img
@@ -20,8 +21,12 @@ const HeroImageFingerJointed = () => {
               Versatile Finger Jointed Boards for Every Project
             </h2>
             <p className="text-md sm:text-lg md:text-xl text-gray-700 mb-6">
-              Crafted from premium Pine and Chilaune, these boards are perfect for wardrobe shutters, furniture manufacturing, and table tops. Available in various sizes to suit different needs.
-            </p>
+            Versatile boards that are ideal for furniture, wardrobe shutters,
+            and tabletops, Renowned for their unique look and increased
+            screw-holding capacity, these boards facilitate quick project
+            completion and require minimal maintenance. Furniture crafted from
+            FJ boards can retain its new appearance for years or be easily
+            refinished in a different color to suit your taste.            </p>
             <button
               type="button"
               className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 transition duration-300"

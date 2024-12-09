@@ -17,8 +17,8 @@ const Accordion = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto my-8 mb-16">
-      <h2 className="text-2xl font-bold mb-4 text-center">FAQs</h2>
+    <div className=" flex-col flex justify-between lg:mr-4 lg:ml-4  mb-4 lg:mt-4 p-4">
+      <h2 className="text-4xl font-bold mb-4 text-center">FAQs</h2>
       <div className="space-y-2">
         {faqData.map((item, index) => (
           <div key={index} className="border-b border-slate-200">

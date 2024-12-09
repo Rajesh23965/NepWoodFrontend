@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const ContactLink = () => {
   return (
     
-    <div className="flex-col  flex md:flex-row justify-between mr-4 lg:ml-4 lg:mt-8 p-4  ml-4 ">
-    <div className="relative w-full h-[400px] md:h-[450px] -mb-4 rounded-lg overflow-hidden">
+    <div className="flex-col  flex md:flex-row justify-between lg:mr-4 lg:ml-4 lg:mt-8 p-4  ">
+    <div className="relative w-full h-[450px] md:h-[450px] -mb-4 rounded-lg overflow-hidden">
      
       <img
         src={Image2}

@@ -7,14 +7,14 @@ import "react-image-lightbox/style.css";
 import { MdFullscreen, MdFullscreenExit } from "react-icons/md";
 window.global = window;
 
-import slider1 from "../../../assets/slider1.jpg";
-import slider2 from "../../../assets/slider2.jpg";
-import slider3 from "../../../assets/slider3.jpg";
-import slider4 from "../../../assets/slider4.jpg";
-import slider5 from "../../../assets/slider5.jpg";
+import slider1 from "../../../assets/Finger.jpeg";
+import slider2 from "../../../assets/f1.png";
+import slider3 from "../../../assets/f2.png";
+// import slider4 from "../../../assets/slider4.jpg";
+// import slider5 from "../../../assets/slider5.jpg";
 import axios from "axios";
 
-const sliderImages = [slider1, slider2, slider3, slider4, slider5];
+const sliderImages = [slider1, slider2, slider3];
 
 const FingerJointedSlider = ({base}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -96,13 +96,13 @@ const FingerJointedSlider = ({base}) => {
               </div>
             ))}
           </Slider>
-          {data.map((fdata,index)=>(
+          {/* {data.map((fdata,index)=>(
 
-          <div key={index} className="">
+          <div key={index} className=""> */}
 
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">
             {/* Chilaune Finger Jointed Board */}
-            {fdata.title}
+            Chilaune Finger Jointed Board
           </h2>
           <table className="w-full text-left border-collapse">
             <thead>
@@ -114,32 +114,32 @@ const FingerJointedSlider = ({base}) => {
             <tbody>
               <tr>
                 <td className="border-b border-gray-300 p-2">Thickness</td>
-                <td className="border-b border-gray-300 p-2">{fdata.thickness}</td>
+                <td className="border-b border-gray-300 p-2">12, 18, 24 mm</td>
               </tr>
               <tr>
                 <td className="border-b border-gray-300 p-2">Width</td>
-                <td className="border-b border-gray-300 p-2">{fdata.width}</td>
+                <td className="border-b border-gray-300 p-2">Up to 2 feet (12 mm, 18 mm) Up to 4 feet (24 mm)</td>
               </tr>
               <tr>
                 <td className="border-b border-gray-300 p-2">Length</td>
-                <td className="border-b border-gray-300 p-2">{fdata.length}</td>
+                <td className="border-b border-gray-300 p-2">Up to 14 feet</td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td className="border-b border-gray-300 p-2">Species</td>
-                <td className="border-b border-gray-300 p-2">{fdata.moisture}</td>
+                <td className="border-b border-gray-300 p-2">Wood</td>
               </tr>
               <tr>
                 <td className="border-b border-gray-300 p-2">Finish Options</td>
                 <td className="border-b border-gray-300 p-2">
                   Polished and Unpolished
                 </td>
-              </tr>
+              </tr> */}
             </tbody>
           </table>
           </div>
           ))}
-        </div>
-      ))}
+        {/* </div>
+      ))} */}
 
       {/* Lightbox Modal */}
       {isOpen && (
@@ -176,3 +176,7 @@ const FingerJointedSlider = ({base}) => {
 };
 
 export default FingerJointedSlider;
+
+
+
+

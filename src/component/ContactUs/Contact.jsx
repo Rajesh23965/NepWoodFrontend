@@ -103,24 +103,36 @@ const Contact = () => {
           <div className="p-12 border-2 flex lg:flex-row flex-col border-green-300 bg-white rounded-tr-[5rem] rounded-tl-[5rem] rounded-br-[5rem]">
             <div className="w-full lg:w-1/2">
               <h3 className="text-3xl font-semibold text-green-600 mb-4">
-                Nep Wood Flooring & Panelling
+              Annapurna Timber Industries
               </h3>
               <p className="text-gray-800 mb-6">
-                Kathmandu, Nepal, Baneshwor, 45700
+              Corporate Office: 166 Prasuti Griha Marg, Babarmahal-11, Kathmandu,<br className="" /> Nepal
               </p>
+              <p className="text-gray-800 mb-6">For Sales Inquiry: </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <FaPhoneAlt className="text-green-600 text-2xl mr-4" />
                   <Link to="tel:+9779800000000" className="text-lg">
-                    +977 9800000000
+                  +977 9802399877
                   </Link>
                 </div>
                 <div className="flex items-center">
                   <CiMail className="text-green-600 text-2xl mr-4" />
                   <Link to="mailto:info@nepwood.com" className="text-lg">
-                    info@nepwood.com
+                  E-mail:info@nepwood.com
                   </Link>
-                </div>
+                  <br className="" />
+                 </div>
+                 <div className="flex items-center">
+                  <CiMail className="text-green-600 text-2xl mr-4" />
+                  <Link to="mailto:info@nepwood.com" className="text-lg">
+              
+
+                  Url: www.nepwood.com
+
+                  </Link>
+                  <br className="" />
+                 </div>
                 <img src={Funny} alt="Contact Visual" className="w-full h-80" />
               </div>
             </div>
@@ -177,3 +189,12 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+
+
+
+
+
+

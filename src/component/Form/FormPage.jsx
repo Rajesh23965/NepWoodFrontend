@@ -3,8 +3,8 @@ import Ply from "../../assets/Ply.jpeg";
  
 const FormPage = () => {
   return (
-    <div className="flex-col  flex md:flex-row justify-between mr-4 lg:ml-4  mb-4 lg:mt-4 ml-4 p-4 ">
-    <div className="relative w-full h-[600px] ">
+    <div className="flex-col  flex md:flex-row justify-between lg:mr-4 lg:ml-4  mb-4 lg:mt-4 p-4 ">
+    <div className="relative w-full lg:h-[600px] h-[900px]  xs:h-[900px]">
       {/* Background Image */}
       <img
         src={Ply}
@@ -45,7 +45,7 @@ const FormPage = () => {
             placeholder="Message"
             className="w-full lg:w-2/5 px-4 py-3 border rounded-md text-black focus:outline-none focus:ring-2 focus:ring-[#3d8e03]"
           />
-          <button className="w-full lg:w-auto  bg-[#3d8e03] mb-14 lg:mb-0 rounded-tr-[5rem] rounded-br-[5rem] rounded-tl-[5rem] text-white px-20  hover:bg-[#2f6b02] transition duration-300">
+          <button className="h-14 lg:h-auto  bg-[#3d8e03]  lg:mb-0 rounded-tr-[5rem] rounded-br-[5rem] rounded-tl-[5rem] text-white px-20  hover:bg-[#2f6b02] transition duration-300">
             Submit
           </button>
         </div>
